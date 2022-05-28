@@ -1,0 +1,30 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import './utils/variables';
+@import './utils/mixin';
+@import './utils/visually-hidden';
+@import './base/reset';
+@import './base/general';
+// Паршалы с компонетами использующиеся в проекте
+@import './components/container';
+@import './components/backdrop';
+@import './components/modal-buy-now';
+@import './components/modal-about';
+@import './components/modal-contacts';
+@import './components/modal-franchise';
+@import './components/up-scroll';
+
+// Паршалы для секций
+@import './layout/header';
+@import './layout/hero';
+@import './layout/products';
+@import './layout/about';
+@import './layout/advantages';
+@import './layout/gallery';
+@import './layout/reviews';
+@import './layout/contacts';
+@import './layout/footer';
